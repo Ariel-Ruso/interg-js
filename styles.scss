@@ -1,0 +1,49 @@
+//reset
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 95%;
+    main {
+        margin: 1%;
+        nav {
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            margin: 10px;
+            padding: 2%;
+        }
+        h1 {
+            margin: 15px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 5em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+    h2 {
+        font-size: 4em;
+        text-align: center;
+    }
+    section {
+        width: 90%;
+        margin: 3%;
+        background-color: magenta;
+        table {
+            .card {
+                img {
+                    width: 50%;
+                    height: 50%;
+                }
+            }
+        }
+    }
+    footer {
+        text-align: font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
